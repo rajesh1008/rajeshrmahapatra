@@ -503,6 +503,10 @@ body, .sidebar, .topnav, .mob-menu, section,
   content: '';
   position: absolute;
   inset: 0;
+  background: linear-gradient(180deg, 
+    rgba(184,134,11,0.06) 0%, 
+    rgba(25,25,112,0.04) 40%, 
+    var(--bg-base) 100%);
   z-index: 1;
 }
 
@@ -540,193 +544,191 @@ body, .sidebar, .topnav, .mob-menu, section,
   z-index: 2;
 }
 
-/* ─── DARK MODE PAINTINGS: Caravaggio chiaroscuro ─── */
 
-/* Hero: Michelangelo's Creation of Adam */
+/* ─── VAN GOGH PAINTINGS: Gold & Blue Royalty ─── */
+
 [data-theme="dark"] #hero .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg/1280px-Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg');
-  background-position: center 30%;
-  opacity: 0.16;
-  filter: saturate(0.4) contrast(1.2);
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+  background-position: center 40%;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
 }
 
-/* Manifesto: Raphael's School of Athens */
 [data-theme="dark"] #manifesto .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Raphael_-_Disputation_of_the_Holy_Sacrament.jpg/1280px-Raphael_-_Disputation_of_the_Holy_Sacrament.jpg');
-  opacity: 0.14;
-  filter: saturate(0.3) contrast(1.15);
-}
-
-/* Writings: Botticelli's Birth of Venus */
-[data-theme="dark"] #writings .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Giorgione_-_La_tempesta.jpg/800px-Giorgione_-_La_tempesta.jpg');
-  opacity: 0.12;
-  filter: saturate(0.3) contrast(1.2);
-}
-
-/* Maps: Da Vinci's Vitruvian Man */
-[data-theme="dark"] #maps .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_Presumed_Self-Portrait_-_WGA12798.jpg/800px-Leonardo_da_Vinci_-_Presumed_Self-Portrait_-_WGA12798.jpg');
-  background-position: center center;
-  opacity: 0.12;
-  filter: saturate(0) contrast(1.3) brightness(1.2);
-}
-
-/* Catalog: Raphael's Transfiguration */
-[data-theme="dark"] #catalog .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG/800px-El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG');
-  opacity: 0.12;
-  filter: saturate(0.3) contrast(1.15);
-}
-
-/* Library: Fra Angelico's Annunciation */
-[data-theme="dark"] #library .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg/1280px-1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg');
-  opacity: 0.12;
-  filter: saturate(0.25) contrast(1.2);
-}
-
-/* Cases: Caravaggio's Calling of St Matthew */
-[data-theme="dark"] #cases .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/1280px-The_Night_Watch_-_HD.jpg');
-  opacity: 0.15;
-  filter: saturate(0.3) contrast(1.25);
-}
-
-/* Reading: Vermeer's Astronomer */
-[data-theme="dark"] #reading .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Johannes_Vermeer_-_The_Geographer_-_Google_Art_Project.jpg/800px-Johannes_Vermeer_-_The_Geographer_-_Google_Art_Project.jpg');
-  opacity: 0.14;
-  filter: saturate(0.3) contrast(1.15);
-}
-
-/* Curriculum: Tintoretto's Paradise */
-[data-theme="dark"] #curriculum .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg/1280px-Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg');
-  opacity: 0.12;
-  filter: saturate(0.25) contrast(1.15);
-}
-
-/* About: Rembrandt Self Portrait */
-[data-theme="dark"] #about .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg/800px-Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg');
-  opacity: 0.14;
-  filter: saturate(0.25) contrast(1.2);
-  background-position: top center;
-}
-
-/* Connect: Botticelli's Primavera */
-[data-theme="dark"] #connect .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paolo_Veronese_-_The_Wedding_at_Cana_-_WGA24880.jpg/1280px-Paolo_Veronese_-_The_Wedding_at_Cana_-_WGA24880.jpg');
-  opacity: 0.12;
-  filter: saturate(0.25) contrast(1.15);
-}
-
-
-/* ─── LIGHT MODE PAINTINGS: Visible fresco on warm plaster ─── */
-
-/* Hero: Creation of Adam — strong presence */
-[data-theme="light"] #hero .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg/1280px-Tiziano_-_Amor_Sacro_y_Amor_Profano_%28Galer%C3%ADa_Borghese%2C_Roma%2C_1514%29.jpg');
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Caf%C3%A9_Terrace_at_Night_by_Vincent_van_Gogh_%28September_1888%29.jpg/800px-Caf%C3%A9_Terrace_at_Night_by_Vincent_van_Gogh_%28September_1888%29.jpg');
   background-position: center 30%;
-  opacity: 0.28;
-  filter: saturate(0.6) contrast(0.9) sepia(0.15);
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
 }
 
-/* Manifesto: School of Athens */
-[data-theme="light"] #manifesto .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Raphael_-_Disputation_of_the_Holy_Sacrament.jpg/1280px-Raphael_-_Disputation_of_the_Holy_Sacrament.jpg');
-  opacity: 0.22;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Writings: Birth of Venus */
-[data-theme="light"] #writings .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Giorgione_-_La_tempesta.jpg/800px-Giorgione_-_La_tempesta.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Maps: Vitruvian Man */
-[data-theme="light"] #maps .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_Presumed_Self-Portrait_-_WGA12798.jpg/800px-Leonardo_da_Vinci_-_Presumed_Self-Portrait_-_WGA12798.jpg');
-  background-position: center center;
-  opacity: 0.18;
-  filter: saturate(0) contrast(0.9) sepia(0.25);
-}
-
-/* Catalog: Raphael's Transfiguration */
-[data-theme="light"] #catalog .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG/800px-El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Library: Fra Angelico's Annunciation */
-[data-theme="light"] #library .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg/1280px-1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Cases: Calling of St Matthew */
-[data-theme="light"] #cases .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/1280px-The_Night_Watch_-_HD.jpg');
-  opacity: 0.22;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Reading: The Astronomer */
-[data-theme="light"] #reading .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Johannes_Vermeer_-_The_Geographer_-_Google_Art_Project.jpg/800px-Johannes_Vermeer_-_The_Geographer_-_Google_Art_Project.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.15);
-}
-
-/* Curriculum: Tintoretto's Paradise */
-[data-theme="light"] #curriculum .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg/1280px-Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg');
-  opacity: 0.18;
-  filter: saturate(0.45) contrast(0.85) sepia(0.15);
-}
-
-/* About: Rembrandt Self Portrait */
-[data-theme="light"] #about .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg/800px-Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg');
-  opacity: 0.2;
-  filter: saturate(0.45) contrast(0.85) sepia(0.15);
-  background-position: top center;
-}
-
-/* Connect: Botticelli's Primavera */
-[data-theme="light"] #connect .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paolo_Veronese_-_The_Wedding_at_Cana_-_WGA24880.jpg/1280px-Paolo_Veronese_-_The_Wedding_at_Cana_-_WGA24880.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
-}
-
-/* Now: Titian's Assumption */
-[data-theme="dark"] #now .ren-bg {
-
-/* Papers: Raphael's School of Athens */
 [data-theme="dark"] #papers .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg');
-  opacity: 0.14;
-  filter: saturate(0.3) contrast(1.15);
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Starry_Night_Over_the_Rhone.jpg/1280px-Starry_Night_Over_the_Rhone.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
 }
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tiziano%2C_assunta_01.jpg/800px-Tiziano%2C_assunta_01.jpg');
-  opacity: 0.12;
-  filter: saturate(0.25) contrast(1.15);
+
+[data-theme="dark"] #writings .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/A_Wheatfield_with_Cypresses_-_National_Gallery_London.jpg/1280px-A_Wheatfield_with_Cypresses_-_National_Gallery_London.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
 }
-[data-theme="light"] #now .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tiziano%2C_assunta_01.jpg/800px-Tiziano%2C_assunta_01.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
+
+[data-theme="dark"] #maps .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Sower.jpg/1024px-The_Sower.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
 }
+
+[data-theme="dark"] #catalog .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/1280px-Irises-Vincent_van_Gogh.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #library .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #cases .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_Willem_van_Gogh_076.jpg/1280px-Vincent_Willem_van_Gogh_076.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #reading .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #curriculum .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg/1280px-Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #about .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg');
+  background-position: center 20%;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #connect .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/800px-Vincent_Willem_van_Gogh_127.jpg');
+  background-position: center 30%;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+[data-theme="dark"] #now .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.25;
+  filter: saturate(0.6) contrast(1.1) sepia(0.15);
+}
+
+/* ─── VAN GOGH PAINTINGS: Light Mode ─── */
+
+[data-theme="light"] #hero .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+  background-position: center 40%;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #manifesto .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Caf%C3%A9_Terrace_at_Night_by_Vincent_van_Gogh_%28September_1888%29.jpg/800px-Caf%C3%A9_Terrace_at_Night_by_Vincent_van_Gogh_%28September_1888%29.jpg');
+  background-position: center 30%;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
 [data-theme="light"] #papers .ren-bg {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg');
-  opacity: 0.2;
-  filter: saturate(0.5) contrast(0.85) sepia(0.1);
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Starry_Night_Over_the_Rhone.jpg/1280px-Starry_Night_Over_the_Rhone.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #writings .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/A_Wheatfield_with_Cypresses_-_National_Gallery_London.jpg/1280px-A_Wheatfield_with_Cypresses_-_National_Gallery_London.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #maps .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Sower.jpg/1024px-The_Sower.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #catalog .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/1280px-Irises-Vincent_van_Gogh.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #library .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #cases .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_Willem_van_Gogh_076.jpg/1280px-Vincent_Willem_van_Gogh_076.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #reading .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #curriculum .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg/1280px-Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #about .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg');
+  background-position: center 20%;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #connect .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/800px-Vincent_Willem_van_Gogh_127.jpg');
+  background-position: center 30%;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
+}
+
+[data-theme="light"] #now .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise%2C_View_from_the_Chevet_-_Google_Art_Project.jpg');
+  background-position: center center;
+  opacity: 0.35;
+  filter: saturate(0.7) contrast(0.9) sepia(0.1);
 }
 
 /* ─── Painting vignette: fade edges for seamless blending ─── */
@@ -746,8 +748,8 @@ body, .sidebar, .topnav, .mob-menu, section,
 
 /* Mobile: slightly reduce painting opacity for readability */
 @media (max-width: 768px) {
-  [data-theme="dark"] .ren-bg { opacity: 0.1 !important; }
-  [data-theme="light"] .ren-bg { opacity: 0.14 !important; }
+  [data-theme="dark"] .ren-bg { opacity: 0.18 !important; }
+  [data-theme="light"] .ren-bg { opacity: 0.25 !important; }
 }
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -1660,7 +1662,7 @@ section{transition:opacity 0.4s ease}
     <div style="display:flex;align-items:center;justify-content:space-between;">
       <div>
         <div class="sb-name">Rajesh R. Mahapatra</div>
-        <div class="sb-title">Agentic AI Enterprise Architect · PhD Candidate</div>
+        <div class="sb-title">Agentic AI Enterprise Architect · Human × Machine Intelligence Researcher</div>
       </div>
       <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
         <div class="theme-toggle-icon">
@@ -2116,7 +2118,7 @@ section{transition:opacity 0.4s ease}
     
     <div class="now-grid rv rv-d3">
       <div class="now-card"><div class="now-label"><span class="now-dot"></span>Day Job</div><div class="now-title">Enterprise AI Architecture</div><div class="now-desc">Designing and leading Agentic AI Deployments for large Financial Institutions. Multi-agent orchestration, LLM Gateways, Governance Frameworks. The day job funds the real work.</div></div>
-      <div class="now-card"><div class="now-label"><span class="now-dot"></span>Research</div><div class="now-title">PhD · Human × Machine Intelligence</div><div class="now-desc">Doctoral research on how Artificial and Biological Cognition can be architecturally integrated. Computational Neuroscience meets Contemplative Phenomenology.</div></div>
+      <div class="now-card"><div class="now-label"><span class="now-dot"></span>Research</div><div class="now-title">Human × Machine Intelligence Research</div><div class="now-desc">Independent research on how Artificial and Biological Cognition can be architecturally integrated. Computational Neuroscience meets Contemplative Phenomenology.</div></div>
       <div class="now-card"><div class="now-label"><span class="now-dot"></span>Building</div><div class="now-title">This Site · The Curriculum</div><div class="now-desc">Turning years of Accumulated Knowledge into a freely accessible Learning Architecture. New papers, resources, and Curriculum Modules added continuously.</div></div>
       <div class="now-card"><div class="now-label"><span class="now-dot"></span>Practice</div><div class="now-title">Contemplative & Somatic Work</div><div class="now-desc">The consciousness side of the research isn't purely academic. Prāṇāyāma, Meditation, Breathwork, and Somatic Practices inform both the curriculum and the research.</div></div>
     </div>
@@ -2133,12 +2135,12 @@ section{transition:opacity 0.4s ease}
     <div class="about-grid rv rv-d2">
       <div class="about-prose">
         <p><strong>AI architect by trade.</strong> I've spent the better part of fifteen years designing and deploying AI systems across Regulated Industries — Financial Services, Insurance, Payments, Risk — across Asia-Pacific and Europe. My work spans Multi-Agent Orchestration, LLM Architecture, Cloud Infrastructure, and the Governance Frameworks that make AI trustworthy enough for institutions that can't afford to get it wrong.</p>
-        <p><strong>Consciousness researcher by calling.</strong> I'm pursuing Doctoral Research on Human × Machine Intelligence — exploring how Artificial and Biological Cognition might be architecturally integrated rather than stacked in separate layers. My research draws on Computational Neuroscience, Phenomenology, and Contemplative Traditions including Kashmir Shaivism, Vedanta, and Abhidhamma.</p>
+        <p><strong>Consciousness researcher by calling.</strong> My independent research focuses on Human × Machine Intelligence — exploring how Artificial and Biological Cognition might be architecturally integrated rather than stacked in separate layers. My research draws on Computational Neuroscience, Phenomenology, and Contemplative Traditions including Kashmir Shaivism, Vedanta, and Abhidhamma.</p>
         <p><strong>Curriculum builder by necessity.</strong> When I started learning AI from First Principles, I couldn't find a single resource that went from "what is a number" to "how do you architect a Multi-Agent System for a regulated environment." So I started building one — and decided to share it openly. What you see on this site is that Ongoing Project.</p>
         <p>I believe the best way to learn is to teach, and the best way to build expertise is to organize it for others. If anything here helps you move faster, that's the whole point.</p>
       </div>
       <div class="about-stats">
-        <div class="about-stat"><div class="about-stat-val">PhD</div><div class="about-stat-label">MDI Gurgaon (In Progress)</div></div>
+        <div class="about-stat"><div class="about-stat-val">Researcher</div><div class="about-stat-label">Human × Machine Intelligence</div></div>
         <div class="about-stat"><div class="about-stat-val">MBA</div><div class="about-stat-label">XLRI Jamshedpur</div></div>
         <div class="about-stat"><div class="about-stat-val">B.Tech</div><div class="about-stat-label">KIIT Bhubaneswar</div></div>
         <div class="about-stat"><div class="about-stat-val">SSB</div><div class="about-stat-label">Indian Air Force — Selected</div></div>
@@ -2498,7 +2500,7 @@ const ARTICLES = [
   {id:197,cat:"convergence",badge:"Convergence",title:"Biohacking for Cognitive Performance: The Evidence-Based Stack",excerpt:"Nootropics, cold exposure, fasting, light exposure, sleep optimization: the complete evidence-based protocol for maximizing cognitive output. What works, what doesn\'t, what\'s dangerous."},
   {id:198,cat:"convergence",badge:"Convergence",title:"The Akhandamandalaakaram of Integrated Intelligence",excerpt:"The Sanskrit concept of akhandamandalaakaram: the unbroken circle of wholeness: as an architectural principle for systems that don\'t fracture intelligence into artificial categories."},
   {id:199,cat:"convergence",badge:"Convergence",title:"Zero-Knowledge Proofs and Privacy-Preserving AI: Consciousness Without Surveillance",excerpt:"ZK-proofs allow verification without revelation. Applied to AI, they enable intelligence without data exposure. The cryptographic foundation for sovereign consciousness technology."},
-  {id:200,cat:"convergence",badge:"Convergence",title:"The Thirteen Limbs of Dharmic Leadership: An Academic Preview",excerpt:"A preview of my Doctoral Research into Indian-origin leadership theory: extending Patanjali\'s eight limbs into a thirteen-limbed model for organizational leadership."},
+  {id:200,cat:"convergence",badge:"Convergence",title:"The Thirteen Limbs of Dharmic Leadership: An Academic Preview",excerpt:"A preview of my Independent Research into Indian-origin leadership theory: extending Patanjali\'s eight limbs into a thirteen-limbed model for organizational leadership."},
   {id:201,cat:"convergence",badge:"Convergence",title:"Federico Faggin: From Inventing the Microprocessor to Proving Consciousness Is Fundamental",excerpt:"The man who created the first commercial microprocessor now argues that consciousness, not matter, is fundamental reality. His journey and why his argument deserves serious attention."},
   {id:202,cat:"convergence",badge:"Convergence",title:"Psychedelic Legalization Map 2025: Where Consciousness Exploration Is Legal",excerpt:"Oregon, Colorado, Australia, Jamaica, Netherlands, Portugal, Peru: the complete global map of psychedelic legality and what it means for Consciousness Researchers."},
   {id:203,cat:"convergence",badge:"Convergence",title:"The Death of Reductionism: Why AI Progress Proves Consciousness Can\'t Be Computed",excerpt:"We\'re building increasingly intelligent systems that have zero subjective experience. This isn\'t a temporary limitation: it\'s evidence that consciousness is non-computational."},
