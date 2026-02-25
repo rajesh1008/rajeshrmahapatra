@@ -507,8 +507,8 @@ body, .sidebar, .topnav, .mob-menu, section,
 }
 
 /* All sections need relative positioning for the bg layer */
-#hero, #manifesto, #writings, #cases, #advisory,
-#maps, #catalog, #library, #reading, #about, #connect, #now {
+#hero, #manifesto, #writings, #cases, #curriculum,
+#maps, #catalog, #library, #reading, #about, #connect, #now, #papers {
   position: relative;
   overflow: hidden;
 }
@@ -600,8 +600,8 @@ body, .sidebar, .topnav, .mob-menu, section,
   filter: saturate(0.3) contrast(1.15);
 }
 
-/* Advisory: Michelangelo's Last Judgment */
-[data-theme="dark"] #advisory .ren-bg {
+/* Curriculum: Tintoretto's Paradise */
+[data-theme="dark"] #curriculum .ren-bg {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg/1280px-Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg');
   opacity: 0.12;
   filter: saturate(0.25) contrast(1.15);
@@ -683,8 +683,8 @@ body, .sidebar, .topnav, .mob-menu, section,
   filter: saturate(0.5) contrast(0.85) sepia(0.15);
 }
 
-/* Advisory: Last Judgment */
-[data-theme="light"] #advisory .ren-bg {
+/* Curriculum: Tintoretto's Paradise */
+[data-theme="light"] #curriculum .ren-bg {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg/1280px-Jacopo_Tintoretto_-_Paradise_-_WGA22637.jpg');
   opacity: 0.18;
   filter: saturate(0.45) contrast(0.85) sepia(0.15);
@@ -707,12 +707,24 @@ body, .sidebar, .topnav, .mob-menu, section,
 
 /* Now: Titian's Assumption */
 [data-theme="dark"] #now .ren-bg {
+
+/* Papers: Raphael's School of Athens */
+[data-theme="dark"] #papers .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg');
+  opacity: 0.14;
+  filter: saturate(0.3) contrast(1.15);
+}
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tiziano%2C_assunta_01.jpg/800px-Tiziano%2C_assunta_01.jpg');
   opacity: 0.12;
   filter: saturate(0.25) contrast(1.15);
 }
 [data-theme="light"] #now .ren-bg {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tiziano%2C_assunta_01.jpg/800px-Tiziano%2C_assunta_01.jpg');
+  opacity: 0.2;
+  filter: saturate(0.5) contrast(0.85) sepia(0.1);
+}
+[data-theme="light"] #papers .ren-bg {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg');
   opacity: 0.2;
   filter: saturate(0.5) contrast(0.85) sepia(0.1);
 }
@@ -933,7 +945,7 @@ section{padding:clamp(4rem,8vw,7rem) clamp(2rem,5vw,5rem);position:relative}
 /* ══════════════════════════════════════════════════════
    ADVISORY
    ══════════════════════════════════════════════════════ */
-#advisory{background:var(--bg-void)}
+#curriculum{background:var(--bg-void)}
 
 .adv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
 .adv-card{padding:2rem;border:1px solid var(--border-hair);border-radius:var(--r-lg);transition:all 0.4s var(--ease);position:relative}
